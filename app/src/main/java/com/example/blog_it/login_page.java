@@ -25,13 +25,6 @@ public class login_page extends AppCompatActivity {
         b2 = (AppCompatButton) findViewById(R.id.searchbtn);
         b3 = (AppCompatButton) findViewById(R.id.delbtn);
 
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent j = new Intent(getApplicationContext(), Addpost.class);
-                startActivity(j);
-            }
-        });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,6 +39,15 @@ public class login_page extends AppCompatActivity {
                 startActivity(j);
             }
         });
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent j = new Intent(getApplicationContext(), Addpost.class);
+                startActivity(j);
+            }
+        });
+
 
 
     }
