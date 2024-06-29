@@ -1,0 +1,41 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20px"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20px"
+        android:background="@drawable/menu" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Post"
+        android:background="#009688"
+        android:drawableTop="@drawable/baseline_add_24"
+        android:textSize="10dp"
+        android:layout_margin="20px"
+        android:id="@+id/addbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Post"
+        android:background="#009688"
+        android:drawableTop="@drawable/baseline_search_24"
+        android:textSize="10dp"
+        android:layout_margin="20px"
+        android:id="@+id/searchbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Post"
+        android:background="#009688"
+        android:drawableTop="@drawable/baseline_delete_24"
+        android:textSize="10dp"
+        android:layout_margin="20px"
+        android:id="@+id/delbtn"/>
+
+</LinearLayout>

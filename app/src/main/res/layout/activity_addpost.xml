@@ -1,0 +1,58 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="70px"
+    android:background="#FAFCFC"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20px"
+        android:background="@drawable/add" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TITLE"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the title"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTENT"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Start Writing"
+        android:id="@+id/content"
+        android:textStyle="italic"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:background="#009688"
+        android:layout_margin="10px"
+        android:textStyle="bold"
+        android:id="@+id/submit"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME PAGE"
+        android:background="#009688"
+        android:layout_margin="10px"
+        android:textStyle="bold"
+        android:id="@+id/back"/>
+
+</LinearLayout>
